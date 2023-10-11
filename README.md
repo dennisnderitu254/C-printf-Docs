@@ -137,3 +137,57 @@ Handle the following conversion specifiers:
 
 Github repository: `printf`
 
+#### 2. With a face like mine, I do better in print
+
+Handle the following custom conversion specifiers:
+
+- `b`: the unsigned int argument is converted to binary
+
+```
+alex@ubuntu:~/c/printf$ cat main.c
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+    _printf("%b\n", 98);
+    return (0);
+}
+alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+alex@ubuntu:~/c/printf$ ./a.out
+1100010
+alex@ubuntu:~/c/printf$
+```
+
+**Repo:**
+
+Github repository: `printf`
+
+#### 3. What one has not experienced, one will never understand in print
+
+Handle the following conversion specifiers:
+
+- `u`
+- `o`
+- `x`
+- `X`
+- You don’t have to handle the flag characters
+- You don’t have to handle field width
+- You don’t have to handle precision
+- You don’t have to handle the length modifiers
+
+**Repo:**
+
+Github repository: `printf`
+
+#### 4. Nothing in fine print is ever good news
+
+Use a local buffer of 1024 chars in order to call write as little as possible.
+
+**Repo:**
+
+Github repository: `printf`

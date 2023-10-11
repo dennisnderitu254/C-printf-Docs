@@ -236,4 +236,27 @@ Handle the following conversion specifier: `p`.
 
 Github repository: `printf`
 
+#### 7. The big print gives and the small print takes away
+
+Handle the following flag characters for non-custom conversion specifiers:
+
+- `+`
+- space
+- `#`
+
+**Repo:**
+
+Github repository: `printf`
+
+#### 8. Sarcasm is lost in print
+
+Handle the following length modifiers for non-custom conversion specifiers:
+
+- `l`
+- `h`
+Conversion specifiers to handle: `d`, `i`, `u`, `o`, `x`, `X`
+
+**Repo:**
+
+Github repository: `printf`
 
